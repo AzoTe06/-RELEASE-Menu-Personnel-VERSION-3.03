@@ -1,0 +1,172 @@
+body{
+  margin:0;
+  padding: 0;
+}
+.over{
+    position: absolute;
+    display: block;
+    position: absolute;
+    display: block;
+    top: 8px;
+    left: 7px;
+    right: 11px;
+    bottom: 8px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%,
+    rgba(241,241,241,0.3) 50%,
+    rgba(225,225,225,0.2) 51%,
+    rgba(246,246,246,0.1) 100%); 
+}
+#cursor {
+    position: absolute;
+    z-index: 99999999;
+    display: none;
+}
+#identity{
+  position: absolute;
+  width: 629px;
+  height: 429px;
+  background-image: url('ci_h.png');
+  bottom: 150px;
+  right: 100px;
+  font-weight:700;
+}
+
+#nom{
+    position: absolute;
+    top: 68px;
+    left: 266px;
+    width: 118px;
+    height: 20px;
+    text-align: center;
+}
+
+#prenom{
+  position: absolute;
+  top: 129px;
+  left: 266px;
+  width: 118px;
+  height: 20px;
+  text-align: center;
+}
+
+#dateNaissance{
+  position: absolute;
+  top: 129px;
+  left: 467px;
+  width: 118px;
+  height: 20px;
+  text-align: center;
+}
+
+#sexe{
+  position: absolute;
+  top: 190px;
+  left: 266px;
+  width: 118px;
+  height: 20px;
+  text-align: center;
+}
+
+#taille{
+  position: absolute;
+  top: 190px;
+  left: 467px;
+  width: 118px;
+  height: 20px;
+  text-align: center;
+}
+
+#jobs{
+  position: absolute;
+  top: 301;
+  left: 467px;
+  width: 118px;
+  height: 20px;
+  text-align: center;
+}
+
+#numCarte{
+    display: block;
+    position: absolute;
+    top: 374px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#register{
+  background-color: rgba(44, 62, 80,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  width: 100vw;
+  height: 100vh;
+}
+
+#registerFrom{
+  background-color: white;
+    width: 550px;
+  padding: 20px;
+}
+#register h1 {
+  background-color: black;
+  color: white;
+  display: block;
+  padding: 10px 50px;
+  text-align: center;
+
+}
+#register .champ{
+  margin-bottom: 6px;
+}
+
+.champ label{
+  display: block;
+  color: black;
+  background-color: white;
+  height: 28px;
+  line-height: 28px;
+  font-size: 24px;
+  padding: 4px 14px;
+}
+.champ input[type="number"],
+.champ input[type="text"]{
+  display: block;
+  margin-left: 22px;
+  height: 38px;
+  width: 508px;
+  padding-left: 10px;
+  background-color: lightgray;
+  border: 1px solid black;
+  font-size: 22px; 
+}
+
+.champ .lcheck{
+  display: inline-block;
+}
+
+
+.champ input[type="radio"]{
+  height: 16px;
+  width: 16px;
+}
+
+button{
+  background-color: lightgray;
+  color:black;
+  font-weight: 700;
+  margin: 15px 50px;
+  padding: 10px 20px;
+  border: 1px solid darkgray;
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
